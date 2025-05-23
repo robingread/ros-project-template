@@ -9,7 +9,6 @@ then
 fi
 
 export PROJECT_WS=/project_ws
-export COLCON_LOG_PATH=${PROJECT_WS}/.colcon/log
 
 # Execute the command passed into this entrypoint
 exec "$@"

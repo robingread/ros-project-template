@@ -1,6 +1,6 @@
-.colcon/build
-.colcon/install
-.colcon/log
+build/
+install/
+log/
 
 # Python stuff
 *.pyc
