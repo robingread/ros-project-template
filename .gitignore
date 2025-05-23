@@ -1,0 +1,8 @@
+.colcon/build
+.colcon/install
+.colcon/log
+
+# Python stuff
+*.pyc
+__pycache__/
+
