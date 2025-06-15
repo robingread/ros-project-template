@@ -1,6 +1,6 @@
 #! /bin/bash
 
-source /opt/ros/${ROS_DISTRO}/setup.sh
+source /opt/ros/${ROS_DISTRO}/setup.bash
 
 # Source the overlay workspace, if built
 if [ -f /project_ws/install/local_setup.bash ]
