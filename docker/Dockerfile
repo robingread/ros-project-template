@@ -85,17 +85,18 @@ RUN \
 
 RUN \
   # Install dev tools
-  apt-get update && \
-  apt-get install -y --no-install-recommends \
-  clang-format \
-  gdb \
-  git \
-  less \
-  linux-tools-common \
-  linux-tools-generic \
-  nano \
-  tree && \
-  rm -rf /var/lib/apt/lists/*
+  apt-get update \
+  && apt-get install -y --no-install-recommends \
+    bash-completion \
+    clang-format \
+    gdb \
+    git \
+    less \
+    linux-tools-common \
+    linux-tools-generic \
+    nano \
+    tree \
+  && rm -rf /var/lib/apt/lists/*
 
 USER ${USERNAME}
 
