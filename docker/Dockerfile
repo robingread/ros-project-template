@@ -23,6 +23,7 @@ RUN \
   && rm -rf /var/lib/apt/lists/* \
   # Install Python dependencies
   && pip3 install --break-system-packages \
+  black \
   fastcov
 
 # Install the ROS dependencies
